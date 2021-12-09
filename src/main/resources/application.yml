@@ -1,0 +1,8 @@
+spring:
+
+  .main:
+    banner-mode: off
+
+  .jpa:
+    hibernate.ddl-auto: validate
+    database-platform: org.hibernate.dialect.H2Dialect
